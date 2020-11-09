@@ -1,0 +1,30 @@
+Project Flow (E-com / S-com)
+===========
+  - item management
+  - user management
+  - order management
+
+  * Daily Report
+  * Monthly Report
+
+CRUD
+====
+  - php artisan make:model Category -m -r
+  - create resource route (web.php)
+  - create resource view folder (resources/views/)
+  
+Database Structure
+==================
+  - item (3-11-2020)
+    2- categories (name, photo)
+    3- subcategories (name, category_id)
+    1- brands (name, photo)
+    4- items (codeno, brand_id, subcategory_id, name, photo, price, discount, description)
+
+  - user
+    - roles
+    - users
+
+  - order
+    - orders
+    - orderdetails
